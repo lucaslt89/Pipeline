@@ -1,0 +1,3 @@
+verilog work "registers.v"
+verilog work "registers_test.v"
+verilog work "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"
