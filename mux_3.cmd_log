@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj TrabajoFinal -o "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/mux_3.tfi" -lib work "D:/Facultad/Otras Materias/Verilog/TrabajoFinal//mux_3.v" -module mux_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 

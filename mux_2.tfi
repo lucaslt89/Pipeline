@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+mux_2 instance_name (
+    .entrada_0(entrada_0), 
+    .entrada_1(entrada_1), 
+    .sel(sel), 
+    .salida(salida)
+    );
+
+

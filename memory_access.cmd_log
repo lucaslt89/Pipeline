@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/memory_access.xst" -ofn "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/memory_access.syr" 
+xst -intstyle ise -ifn "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/memory_access.xst" -ofn "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/memory_access.syr" 

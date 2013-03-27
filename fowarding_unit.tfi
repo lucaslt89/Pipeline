@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+fowarding_unit instance_name (
+    .clock(clock), 
+    .rs(rs), 
+    .rt(rt), 
+    .wb_ex(wb_ex), 
+    .wb_mem(wb_mem), 
+    .ex_out(ex_out), 
+    .mem_out(mem_out)
+    );
+
+

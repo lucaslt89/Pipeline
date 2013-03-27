@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj TrabajoFinal -o "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/ex_mem_reg.tfi" -lib work "D:/Facultad/Otras Materias/Verilog/TrabajoFinal//ex_mem_reg.v" -module ex_mem_reg -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj TrabajoFinal -o "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/ex_mem_reg.tfi" -lib work "D:/Facultad/Otras Materias/Verilog/TrabajoFinal//ex_mem_reg.v" -module ex_mem_reg -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 

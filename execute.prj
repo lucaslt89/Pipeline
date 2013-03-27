@@ -1,0 +1,5 @@
+verilog work "mux_3.v"
+verilog work "mux_2.v"
+verilog work "fowarding_unit.v"
+verilog work "ex_mem_reg.v"
+verilog work "execute.v"

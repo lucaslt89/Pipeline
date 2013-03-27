@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj TrabajoFinal -o "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/if_id_reg.tfi" -lib work "D:/Facultad/Otras Materias/Verilog/TrabajoFinal//if_id.v" -module if_id_reg -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 

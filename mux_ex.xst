@@ -1,0 +1,5 @@
+set -tmpdir "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/xst/projnav.tmp"
+set -xsthdpdir "D:/Facultad/Otras Materias/Verilog/TrabajoFinal/xst"
+elaborate
+-ifn mux_ex.prj
+-ifmt mixed
