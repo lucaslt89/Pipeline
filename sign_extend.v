@@ -7,7 +7,7 @@
 // Design Name: 
 // Module Name:    sign_extend 
 // Project Name: 
-// Target Devices: 
+// Target Dev ices: 
 // Tool versions: 
 // Description: 
 //
