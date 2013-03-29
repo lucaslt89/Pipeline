@@ -1,4 +1,7 @@
 MO mux_ex NULL mux_ex.v vlg06/mux__ex.bin 1364589959
+MO memory_access NULL memory_access.v vlg7A/memory__access.bin 1364591619
+MO data_mem NULL data_mem.v vlg40/data__mem.bin 1364591619
+MO mem_wb_reg NULL mem_wb_reg.v vlg10/mem__wb__reg.bin 1364591619
 MO execute NULL execute.v vlg67/execute.bin 1364589959
 MO mux NULL Mux.v vlg66/mux.bin 1364589806
 MO mux_ex_3 NULL mux_3.v vlg24/mux__ex__3.bin 1364588511

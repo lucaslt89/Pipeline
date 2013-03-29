@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+mem_wb_reg instance_name (
+    .mem_data(mem_data), 
+    .address(address), 
+    .clock(clock), 
+    .salida_mem(salida_mem), 
+    .salida_addr(salida_addr)
+    );
+
+

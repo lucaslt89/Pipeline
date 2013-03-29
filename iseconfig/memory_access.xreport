@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-03-29T13:26:29</DateModified>
-  <ModuleName>instruction_fetch</ModuleName>
+  <DateModified>2013-03-29T18:14:05</DateModified>
+  <ModuleName>memory_access</ModuleName>
   <SummaryTimeStamp>2013-03-29T13:07:43</SummaryTimeStamp>
   <SavedFilePath>D:/Facultad/Arquitectura de Computadoras/Pipeline/iseconfig/memory_access.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/Facultad/Arquitectura de Computadoras/Pipeline\</ImplementationReportsDirectory>

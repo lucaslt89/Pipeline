@@ -20,12 +20,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 module write_back(
     input mem_to_reg,
-    input [32:0] mem_data,
-    input [32:0] ex_data,
-    output [32:0] wb_out
+    input [31:0] mem_data,
+    input [31:0] ex_data,
+    output [31:0] wb_out
     );
 
-	reg [32:0] aux;
+	reg [31:0] aux;
 	 
 	always @(*)
 	begin
