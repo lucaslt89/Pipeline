@@ -1,31 +1,27 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_isim_beh.exe -prj D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_beh.prj work.test_instruction_fetch work.glbl 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Facultad/Arquitectura de Computadoras/Pipeline/test_execute_isim_beh.exe -prj D:/Facultad/Arquitectura de Computadoras/Pipeline/test_execute_beh.prj work.test_execute work.glbl 
 ISim P.28xd (signature 0x1048c146)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/sumador.v" into library work
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/program_memory.v" into library work
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/pc.v" into library work
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/Mux.v" into library work
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/if_id.v" into library work
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/fetch.v" into library work
-Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/mux_ex.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/ex_mem_reg.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/alu.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/execute.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/test_execute.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 122468 KB
+Fuse Memory Usage: 122020 KB
 Fuse CPU Usage: 280 ms
-Compiling module mux
-Compiling module pc
-Compiling module sumador
-Compiling module inst_mem
-Compiling module if_id_reg
-Compiling module instruction_fetch
-Compiling module test_instruction_fetch
+Compiling module ex_mem_reg
+Compiling module mux_ex
+Compiling module alu
+Compiling module execute
+Compiling module test_execute
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 8 Verilog Units
-Built simulation executable D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_isim_beh.exe
-Fuse Memory Usage: 127060 KB
-Fuse CPU Usage: 389 ms
+Compiled 6 Verilog Units
+Built simulation executable D:/Facultad/Arquitectura de Computadoras/Pipeline/test_execute_isim_beh.exe
+Fuse Memory Usage: 126932 KB
+Fuse CPU Usage: 358 ms

@@ -3,12 +3,11 @@
 
 // Instantiate the module
 ex_mem_reg instance_name (
-    .wb(wb), 
-    .m(m), 
-    .resultado(resultado), 
-    .dato_1(dato_1), 
-    .dato_2(dato_2), 
-    .salida(salida)
+    .result(result), 
+    .registro_2(registro_2), 
+    .clock(clock), 
+    .salida_result(salida_result), 
+    .salida_registro_2(salida_registro_2)
     );
 
 

@@ -1,0 +1,6 @@
+verilog work "mux_ex.v"
+verilog work "ex_mem_reg.v"
+verilog work "alu.v"
+verilog work "execute.v"
+verilog work "test_execute.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,6 @@
+verilog isim_temp "mux_ex.v"
+verilog isim_temp "ex_mem_reg.v"
+verilog isim_temp "alu.v"
+verilog isim_temp "execute.v"
+verilog isim_temp "test_execute.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

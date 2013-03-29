@@ -1,3 +1,0 @@
-verilog work "mem_wb_reg.v"
-verilog work "data_mem.v"
-verilog work "memory_access.v"

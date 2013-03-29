@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+alu instance_name (
+    .clock(clock), 
+    .operando_1(operando_1), 
+    .operando_2(operando_2), 
+    .op(op), 
+    .result(result)
+    );
+
+

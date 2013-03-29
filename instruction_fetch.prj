@@ -1,6 +1,0 @@
-verilog work "sumador.v"
-verilog work "program_memory.v"
-verilog work "pc.v"
-verilog work "Mux.v"
-verilog work "if_id.v"
-verilog work "fetch.v"

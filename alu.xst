@@ -1,0 +1,5 @@
+set -tmpdir "D:/Facultad/Arquitectura de Computadoras/Pipeline/xst/projnav.tmp"
+set -xsthdpdir "D:/Facultad/Arquitectura de Computadoras/Pipeline/xst"
+elaborate
+-ifn alu.prj
+-ifmt mixed

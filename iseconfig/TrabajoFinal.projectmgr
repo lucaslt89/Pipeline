@@ -9,8 +9,8 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/adder_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|Adder_test.v</ClosedNode>
          <ClosedNode>/control_mux_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|control_mux_test.v</ClosedNode>
-         <ClosedNode>/execute D:|Facultad|Arquitectura de Computadoras|Pipeline|execute.v</ClosedNode>
          <ClosedNode>/execute D:|Facultad|Otras Materias|Verilog|TrabajoFinal|execute.v</ClosedNode>
+         <ClosedNode>/instruction_fetch D:|Facultad|Arquitectura de Computadoras|Pipeline|fetch.v</ClosedNode>
          <ClosedNode>/instruction_fetch D:|Facultad|Otras Materias|Verilog|TrabajoFinal|fetch.v</ClosedNode>
          <ClosedNode>/memory_access D:|Facultad|Arquitectura de Computadoras|Pipeline|memory_access.v</ClosedNode>
          <ClosedNode>/memory_access D:|Facultad|Otras Materias|Verilog|TrabajoFinal|memory_access.v</ClosedNode>
@@ -18,13 +18,13 @@
          <ClosedNode>/sign_extend_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|sign_extend_test.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>instruction_fetch (D:/Facultad/Arquitectura de Computadoras/Pipeline/fetch.v)</SelectedItem>
+         <SelectedItem>execute (D:/Facultad/Arquitectura de Computadoras/Pipeline/execute.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000014b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000149000000020000000000000000000000000200000064ffffffff000000810000000300000002000001490000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>instruction_fetch (D:/Facultad/Arquitectura de Computadoras/Pipeline/fetch.v)</CurrentItem>
+      <CurrentItem>execute (D:/Facultad/Arquitectura de Computadoras/Pipeline/execute.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -80,7 +80,7 @@
       <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
@@ -112,7 +112,6 @@
          <ClosedNode>/adder_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|Adder_test.v</ClosedNode>
          <ClosedNode>/control_mux_test D:|Facultad|Arquitectura de Computadoras|Pipeline|control_mux_test.v</ClosedNode>
          <ClosedNode>/control_mux_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|control_mux_test.v</ClosedNode>
-         <ClosedNode>/execute D:|Facultad|Arquitectura de Computadoras|Pipeline|execute.v</ClosedNode>
          <ClosedNode>/execute D:|Facultad|Otras Materias|Verilog|TrabajoFinal|execute.v</ClosedNode>
          <ClosedNode>/instruction_fetch D:|Facultad|Arquitectura de Computadoras|Pipeline|fetch.v</ClosedNode>
          <ClosedNode>/instruction_fetch D:|Facultad|Otras Materias|Verilog|TrabajoFinal|fetch.v</ClosedNode>
@@ -122,18 +121,18 @@
          <ClosedNode>/registers_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|registers_test.v</ClosedNode>
          <ClosedNode>/sign_extend_test D:|Facultad|Arquitectura de Computadoras|Pipeline|sign_extend_test.v</ClosedNode>
          <ClosedNode>/sign_extend_test D:|Facultad|Otras Materias|Verilog|TrabajoFinal|sign_extend_test.v</ClosedNode>
+         <ClosedNode>/test_execute D:|Facultad|Arquitectura de Computadoras|Pipeline|test_execute.v</ClosedNode>
+         <ClosedNode>/test_instruction_fetch D:|Facultad|Arquitectura de Computadoras|Pipeline|test_instruction_fetch.v</ClosedNode>
          <ClosedNode>/test_instruction_fetch D:|Facultad|Arquitectura de Computadoras|Pipeline|test_instruction_fetch.v/uut - instruction_fetch</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>registers_test (D:/Facultad/Arquitectura de Computadoras/Pipeline/registers_test.v)</SelectedItem>
-         <SelectedItem>sign_extend_test (D:/Facultad/Arquitectura de Computadoras/Pipeline/sign_extend_test.v)</SelectedItem>
-         <SelectedItem>test_instruction_fetch (D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch.v)</SelectedItem>
+         <SelectedItem>test_execute (D:/Facultad/Arquitectura de Computadoras/Pipeline/test_execute.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000013a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000013a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>registers_test (D:/Facultad/Arquitectura de Computadoras/Pipeline/registers_test.v)</CurrentItem>
+      <CurrentItem>test_execute (D:/Facultad/Arquitectura de Computadoras/Pipeline/test_execute.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
