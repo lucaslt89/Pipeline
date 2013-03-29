@@ -1,6 +1,6 @@
 ISim log file
-Running: D:\Facultad\Arquitectura de Computadoras\Pipeline\test_instruction_fetch_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_isim_beh.wdb 
-ISim P.28xd (signature 0x1048c146)
+Running: D:\Practicos Arquitectura\Pipeline\insruction_decode_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Practicos Arquitectura/Pipeline/insruction_decode_test_isim_beh.wdb 
+ISim P.15xf (signature 0xc3576ebc)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {D:/Practicos Arquitectura/Pipeline/instruction_decode.v} -lang verilog -prj TrabajoFinal -o instruction_decode.spl -module instruction_decode -template D:/Xilinx/14.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e instruction_decode.spl {D:/Practicos Arquitectura/Pipeline/instruction_decode.sym} 

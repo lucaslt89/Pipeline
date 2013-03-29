@@ -25,7 +25,7 @@ module fowarding_unit(
 	 input wb_ex,
 	 input wb_mem,
 	 input ex_out,
-	 input mem_out
+	 input mem_out,
 	 output sel_0,
 	 output sel_1	 
     );

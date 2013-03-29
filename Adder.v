@@ -19,11 +19,14 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module adder(
-    input [31:0] old_pc,
+    input [10:0] old_pc,
     input [31:0] offset,
-    output [31:0] new_pc
+    output reg [10:0] new_pc
     );
 
-	assign new_pc = old_pc + offset;
+	always @*
+	begin
+		new_pc = old_pc + offset;
+	end
 
 endmodule

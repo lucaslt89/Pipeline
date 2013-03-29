@@ -1,0 +1,5 @@
+set -tmpdir "D:/Practicos Arquitectura/Pipeline/xst/projnav.tmp"
+set -xsthdpdir "D:/Practicos Arquitectura/Pipeline/xst"
+elaborate
+-ifn instruction_decode.prj
+-ifmt mixed

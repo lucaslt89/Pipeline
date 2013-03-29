@@ -1,0 +1,15 @@
+[Inputs]
+reg_write
+clock
+=instruction[31:0]=
+=current_pc[10:0]=
+=write_back_data[31:0]=
+[Outputs]
+=jump_dest_addr[10:0]=
+=data_a[31:0]=
+=data_b[31:0]=
+=sign_extended[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel instruction_decode
+

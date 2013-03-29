@@ -1,0 +1,5 @@
+verilog work "sign_extend.v"
+verilog work "registers.v"
+verilog work "id_ex.v"
+verilog work "Adder.v"
+verilog work "instruction_decode.v"

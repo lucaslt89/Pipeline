@@ -24,11 +24,13 @@ module registers(
     input [4:0] write_address,
     input [31:0]write_data,
     input reg_write, //0 to read, 1 to write.
-    output reg [31:0] data_a,
-    output reg [31:0] data_b
+    output [31:0] data_a,
+    output [31:0] data_b
     );
 	 
 	 reg [31:0] registers [31:0];
+	 reg [31:0] data_a_reg;
+	 reg [31:0] data_b_reg;
 	 
 	 always @*
 	 begin
@@ -40,10 +42,13 @@ module registers(
 		
 		else
 		begin
-			data_a = registers[read_addr_a];
-			data_b = registers[read_addr_b];
+			data_a_reg = registers[read_addr_a];
+			data_b_reg = registers[read_addr_b];
 		end
 		
 	 end
+	 
+	 assign data_a = data_a_reg;
+	 assign data_b = data_b_reg;
 	 
 endmodule

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-03-29T14:14:56</DateModified>
+  <DateModified>2013-03-29T17:06:16</DateModified>
   <ModuleName>instruction_fetch</ModuleName>
   <SummaryTimeStamp>2013-03-29T14:12:06</SummaryTimeStamp>
-  <SavedFilePath>D:/Facultad/Arquitectura de Computadoras/Pipeline/iseconfig/instruction_fetch.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Facultad/Arquitectura de Computadoras/Pipeline</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Practicos Arquitectura/Pipeline/iseconfig/instruction_fetch.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Practicos Arquitectura/Pipeline\</ImplementationReportsDirectory>
   <DateInitialized>2013-03-29T13:52:03</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
