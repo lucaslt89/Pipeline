@@ -19,19 +19,25 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module pc(
-    input clock,
-	 input [10:0] siguiente_pc,
-    input enable_pc,
-	 output [10:0] pc_actual
+	 input [10:0] entrada,
+	 input clock,
+	 output [10:0] salida
 	 );
 	 
 	reg [10:0] pc_aux = 10'b00000_00000;
+	
 	always @(posedge clock)
+	begin
+			pc_aux = entrada;
+	end
+	
+	assign salida = pc_aux;
+
+endmodule
+
+    //input enable_pc,
+/*	always @(posedge clock)
 	begin
 		if(enable_pc)
 			pc_aux = siguiente_pc;
-	end
-	
-	assign pc_actual = pc_aux;
-
-endmodule
+	end*/

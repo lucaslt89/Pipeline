@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-03-03T19:32:24</DateModified>
+  <DateModified>2013-03-29T12:59:01</DateModified>
   <ModuleName>Adder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Practicos Arquitectura/Pipeline/iseconfig/adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Practicos Arquitectura/Pipeline\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Facultad/Arquitectura de Computadoras/Pipeline/iseconfig/adder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Facultad/Arquitectura de Computadoras/Pipeline\</ImplementationReportsDirectory>
   <DateInitialized>2013-03-03T15:52:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

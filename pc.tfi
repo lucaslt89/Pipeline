@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+pc instance_name (
+    .entrada(entrada), 
+    .salida(salida)
+    );
+
+

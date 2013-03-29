@@ -1,19 +1,31 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Practicos Arquitectura/Pipeline/registers_test_isim_beh.exe" -prj "C:/Practicos Arquitectura/Pipeline/registers_test_beh.prj" "work.registers_test" "work.glbl" 
-ISim P.15xf (signature 0xc3576ebc)
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_isim_beh.exe -prj D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_beh.prj work.test_instruction_fetch work.glbl 
+ISim P.28xd (signature 0x1048c146)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Practicos Arquitectura/Pipeline/registers.v" into library work
-Analyzing Verilog file "C:/Practicos Arquitectura/Pipeline/registers_test.v" into library work
-Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/sumador.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/program_memory.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/pc.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/Mux.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/if_id.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/fetch.v" into library work
+Analyzing Verilog file "D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module registers
-Compiling module registers_test
+Fuse Memory Usage: 122468 KB
+Fuse CPU Usage: 280 ms
+Compiling module mux
+Compiling module pc
+Compiling module sumador
+Compiling module inst_mem
+Compiling module if_id_reg
+Compiling module instruction_fetch
+Compiling module test_instruction_fetch
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
-Compiled 3 Verilog Units
-Built simulation executable C:/Practicos Arquitectura/Pipeline/registers_test_isim_beh.exe
-Fuse Memory Usage: 28224 KB
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable D:/Facultad/Arquitectura de Computadoras/Pipeline/test_instruction_fetch_isim_beh.exe
+Fuse Memory Usage: 127060 KB
 Fuse CPU Usage: 389 ms

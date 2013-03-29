@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+mux instance_name (
+    .incremento(incremento), 
+    .salto(salto), 
+    .sel(sel), 
+    .value(value)
+    );
+
+

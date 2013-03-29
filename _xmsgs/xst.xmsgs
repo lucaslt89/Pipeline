@@ -5,33 +5,13 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;memory_access.v&quot; line 42 </arg>Connection to output port &apos;<arg fmt="%s" index="2">out_data</arg>&apos; does not match port size
+<msg type="warning" file="Xst" num="1781" delta="new" >Signal &lt;<arg fmt="%s" index="1">memoria</arg>&gt; is used but never assigned. Tied to default value.
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;memory_access.v&quot; line 43 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in_data</arg>&apos; does not match port size
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">u_inst_mem/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">u_inst_mem/aux</arg>&gt;.
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;memory_access.v&quot; line 49 </arg>Connection to input port &apos;<arg fmt="%s" index="2">entrada</arg>&apos; does not match port size
-</msg>
-
-<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;memory_access.v&quot; line 53 </arg>Connection to output port &apos;<arg fmt="%s" index="2">salida</arg>&apos; does not match port size
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aux_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_data_mem</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">out_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_mem_wb_reg</arg>&gt;.
-</msg>
-
-<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_memoria</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">out_32</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mem_wb_reg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">u_inst_mem/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
 </msg>
 
 </messages>

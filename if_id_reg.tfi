@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+if_id_reg instance_name (
+    .instruccion(instruccion), 
+    .pc(pc), 
+    .clock(clock), 
+    .salida_inst(salida_inst), 
+    .salida_pc(salida_pc)
+    );
+
+

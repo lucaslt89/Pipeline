@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+sumador instance_name (
+    .pc_actual(pc_actual), 
+    .pc_incrementado(pc_incrementado)
+    );
+
+

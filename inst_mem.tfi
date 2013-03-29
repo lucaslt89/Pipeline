@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+inst_mem instance_name (
+    .addr(addr), 
+    .clock(clock), 
+    .inst(inst)
+    );
+
+

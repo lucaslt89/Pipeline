@@ -19,26 +19,43 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module if_id_reg(
-    input [31:0] entrada,
+    input [31:0] instruccion,
+	 input [10:0] pc,
 	 input clock,
-    input enable_if_id,
-	 input flush,
-	 output [31:0] salida
+	 output [31:0] salida_inst,
+	 output [10:0] salida_pc
 	 );
 	
-	reg  [31:0] out;
+	reg  [31:0] out_inst;
+	reg  [10:0] out_pc;
 	
 	always @(posedge clock)
+	begin
+		out_inst = instruccion;
+	end
+	
+	
+	always @(posedge clock)
+	begin
+		out_pc = pc;
+	end
+	
+	assign salida_inst = out_inst;
+	assign salida_pc = out_pc;
+	
+endmodule
+
+    //input enable_if_id,
+	 //input flush,
+
+/*	always @(posedge clock)
 	begin
 		if(enable_if_id)
 		begin
 			if(flush)
 				out = 32'b00000_00000_00000_00000_00000_00000_00; //nop
 			else
-				out = entrada;
+				out_inst = instrucción;
 		end	
 	end
-	
-	assign salida = out;
-	
-endmodule
+*/
